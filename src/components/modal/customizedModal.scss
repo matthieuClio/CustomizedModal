@@ -1,0 +1,69 @@
+/* Variable */
+$backgroundModalBackground: rgba(0,0,0,0.75);
+$customizedModalBackground: #FFFFFF;
+$customizedModalCloseButtonBackground:#2C2C2C;
+$customizedModalCloseButtonColor: #FFFFFF;
+$customizedModalValideButtonColor: #FFFFFF;
+$customizedModalValideButtonBackground: #4B7BFF;
+
+// To delete
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background-modal {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: $backgroundModalBackground;
+
+    &__customized-modal {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        width: 50%;
+        height: 200px;
+        border-radius: 10px;
+        padding: 20px;
+        background-color: $customizedModalBackground;
+
+        &__header {
+            display: flex;
+            justify-content: flex-end;
+
+            &__close-button {
+                background-color: $customizedModalCloseButtonBackground;
+                color: $customizedModalCloseButtonColor;
+            }
+        }
+
+        &__content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+
+            &__text {
+                margin-bottom: 40px;
+            }
+
+            &__valide-button {
+                background-color: $customizedModalValideButtonBackground;
+                color: $customizedModalValideButtonColor;
+            }
+        }
+
+    }
+}
+
+/* Factored */
+.customized-modal-button {
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
