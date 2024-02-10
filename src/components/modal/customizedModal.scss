@@ -14,6 +14,7 @@ $customizedModalValideButtonBackground: #4B7BFF;
 
 .background-modal {
     position: absolute;
+    top: 0;
     height: 100%;
     width: 100%;
     background-color: $backgroundModalBackground;
@@ -66,4 +67,8 @@ $customizedModalValideButtonBackground: #4B7BFF;
     border-radius: 30px;
     padding: 10px;
     cursor: pointer;
+}
+
+.background-modal-display-none {
+    display: none;
 }
