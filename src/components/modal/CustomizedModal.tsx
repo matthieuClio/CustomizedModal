@@ -19,7 +19,6 @@ export default function CustomizedModal (props: {
     }
 
     return (
-        // <div className="background-modal">
         <div className={modalState ? 'background-modal': 'background-modal-display-none'}>
             <div className="background-modal__customized-modal">
                 {/* Close button */}

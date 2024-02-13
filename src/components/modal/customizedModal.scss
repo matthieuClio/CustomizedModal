@@ -6,11 +6,10 @@ $customizedModalCloseButtonColor: #FFFFFF;
 $customizedModalValideButtonColor: #FFFFFF;
 $customizedModalValideButtonBackground: #4B7BFF;
 
-// To delete
-* {
-    margin: 0;
-    padding: 0;
-}
+/* For a good result make your body markup in relative position */
+/* body {
+    position: relative;
+} */
 
 .background-modal {
     position: absolute;
