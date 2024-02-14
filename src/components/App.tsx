@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 // Components
-import CustomizedModal from "./modal/CustomizedModal";
+import CustomizedModal from './modal/CustomizedModal';
 
 export default function App () {
     const [modal, setModal] = useState<boolean>(false);
