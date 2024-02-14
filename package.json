@@ -36,8 +36,5 @@
     "modal"
   ],
   "author": "mat",
-  "license": "ISC",
-  "publishConfig": {
-    "@matthieuclio/customizedmodal:registry": "https://npm.pkg.github.com"
-  }
+  "license": "ISC"
 }
