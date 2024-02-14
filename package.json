@@ -30,7 +30,7 @@
   "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/matthieuClio/CustomizedModal"
+    "url": "git+https://github.com/matthieuClio/CustomizedModal.git"
   },
   "keywords": [
     "modal"
@@ -39,5 +39,10 @@
   "license": "ISC",
   "publishConfig": {
     "@matthieuclio/customizedmodal:registry": "https://npm.pkg.github.com"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/matthieuClio/CustomizedModal/issues"
+  },
+  "homepage": "https://github.com/matthieuClio/CustomizedModal#readme",
+  "main": "main.tsx"
 }
