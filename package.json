@@ -1,8 +1,14 @@
 {
-  "name": "customizedmodal",
-  "private": true,
-  "version": "0.0.0",
+  "name": "@makabay/customizedmodal",
+  "version": "0.1.21",
   "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": ["dist", "README.md"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matthieuClio/CustomizedModal"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -10,11 +16,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "normalize.css": "^8.0.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "normalize.css": "^8.0.1"
   },
   "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "@types/react": "^18.2.55",
     "@types/react-dom": "^18.2.19",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
@@ -26,5 +32,9 @@
     "sass": "^1.70.0",
     "typescript": "^5.2.2",
     "vite": "^5.1.0"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }

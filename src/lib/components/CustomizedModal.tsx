@@ -15,7 +15,6 @@ export default function CustomizedModal (props: {
 
     function closeModal () {
         changeModalState(!modalState);
-        console.log(modalState)
     }
 
     return (
